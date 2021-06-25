@@ -15,9 +15,9 @@ else {
     var finalyear = currentYear+parseInt(t);
     result = (p*r*t)/100;
     var finalvalue = result+parseInt(p);
-    document.getElementById("outputPrincipal").innerHTML = "If you deposit " + p+",";
-    document.getElementById("outputInterest").innerHTML = "at an interest rate of " + r+"%.";
-    document.getElementById("Finalvalue").innerHTML = "You will recevie the amount of " + finalvalue+".";
+    document.getElementById("outputPrincipal").innerHTML = "If you deposit <mark>" + p+",</mark>";
+    document.getElementById("outputInterest").innerHTML = "at an interest rate of <mark>" + r+"%.<mark>";
+    document.getElementById("Finalvalue").innerHTML = "You will recevie the amount of <mark>" + finalvalue+".</mark>";
     document.getElementById("Finalyear").innerHTML = "in the year of " + finalyear;
     
 }
