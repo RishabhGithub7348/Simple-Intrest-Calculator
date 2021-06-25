@@ -18,7 +18,7 @@ else {
     document.getElementById("outputPrincipal").innerHTML = "If you deposit <mark>" + p+",</mark>";
     document.getElementById("outputInterest").innerHTML = "at an interest rate of <mark>" + r+"%.<mark>";
     document.getElementById("Finalvalue").innerHTML = "You will recevie the amount of <mark>" + finalvalue+".</mark>";
-    document.getElementById("Finalyear").innerHTML = "in the year of " + finalyear;
+    document.getElementById("Finalyear").innerHTML = "in the year of <mark>" + finalyear+"</mark>";
     
 }
 }    
