@@ -1,16 +1,13 @@
 body {
-    background-color:white;
+    background-color:rgb(84, 181, 250);
+    color: white;
 }
-h1{color:grey; padding-left: 40;padding-top: 30;font-family: Verdana;
+h1{color:rgb(255, 255, 255); padding-left: 40;padding-top: 30;font-family: Verdana;
 
 }
 
 div{
     padding-left: 110; font-family: Verdana;
-    background-color: white;
-     border-radius: 25px;
-    
-
 
 }
 .first{
@@ -28,3 +25,4 @@ footer{
     padding-left: 40;
     font-family: Verdana;
 }
+
